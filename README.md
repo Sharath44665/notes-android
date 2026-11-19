@@ -81,5 +81,5 @@ fun TextFieldExample(modifier: Modifier = Modifier) {
 ```
 
 source code: https://gitlab.com/sharath44665/text-example#
-
-
+ 
+> 💥 outlined text filed example can be found in above link
