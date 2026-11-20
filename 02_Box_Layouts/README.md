@@ -50,3 +50,10 @@ fun BoxExample(modifier: Modifier = Modifier) {
 }
 ```
 source code: https://gitlab.com/sharath44665/layouts-box-row-column#
+
+---
+using the above knowledge, do this business card 👇
+
+![ex](./img/Screenshot_20261120_122007.png)
+
+source code: https://gitlab.com/sharath44665/business-card
