@@ -32,3 +32,21 @@ Column(
     }
 ```
 source code: https://gitlab.com/sharath44665/layouts-box-row-column#
+
+## Box layout
+
+``` kotlin
+@Composable
+fun BoxExample(modifier: Modifier = Modifier) {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+
+    ) {
+        Text(text = "num1", fontSize = 25.sp, modifier = Modifier.align(Alignment.BottomCenter) )
+        Text(text = "num2", fontSize = 25.sp, modifier = Modifier.align(Alignment.CenterStart))
+        Text(text = "num3", fontSize = 25.sp, modifier = Modifier.align(Alignment.CenterEnd))
+
+    }
+}
+```
+source code: https://gitlab.com/sharath44665/layouts-box-row-column#
